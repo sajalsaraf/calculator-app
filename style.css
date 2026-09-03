@@ -5,9 +5,9 @@
   --paper: #f6f4ef;
   --panel: #fffefa;
   --line: #e9e5dc;
-  --blue: #c84b31;
-  --blue-dark: #98321f;
-  --blue-soft: #fce9e4;
+  --blue: #2457c5;
+  --blue-dark: #173d91;
+  --blue-soft: #e6edff;
   --shadow: 0 24px 70px rgba(39, 53, 72, 0.14);
 }
 
@@ -50,7 +50,7 @@ h1 { margin: 0; font-family: "Space Grotesk", sans-serif; font-size: 1.8rem; let
 .key { min-width: 0; aspect-ratio: 1.2; border: 0; border-radius: 15px; color: var(--ink); background: #f2f1ed; font: 600 1.2rem "DM Sans", sans-serif; cursor: pointer; transition: transform 120ms ease, background 120ms ease, color 120ms ease; }
 .key:hover { background: #e9e8e3; }
 .key:active { transform: scale(0.94); }
-.key:focus-visible { outline: 3px solid rgba(53, 101, 212, 0.35); outline-offset: 2px; }
+.key:focus-visible { outline: 3px solid rgba(36, 87, 197, 0.35); outline-offset: 2px; }
 .key-muted { color: var(--muted); background: var(--blue-soft); }
 .key-muted:hover { background: #dbe5fb; }
 .key-operator { color: var(--blue); background: #edf1fc; font-size: 1.45rem; }
